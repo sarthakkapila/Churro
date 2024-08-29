@@ -65,12 +65,12 @@ const Section2 = () => {
         <Image
           src={Logo}
           alt="Cheddar Logo"
-          style={{ width: "100%", height: 250, objectFit: "contain" }}
+          style={{ width: "150%", height: 350, objectFit: "contain" }}
         />
 
         <MainButton>JOIN BETA NOW</MainButton>
-        <Typography variant="h5" sx={{ mt: -10, mb: 5, fontWeight: 'bold' }}>
-          GLOBAL CHAT TO BUY MEME COINS
+        <Typography variant="h3" sx={{ mt: -10, mb: 10, fontWeight: 'bold' }}>
+        SLIDE INTO CHAT & STACK BAGS
         </Typography>
         {/* Neon Boxes */}
         {scrollPosition < 700 && (

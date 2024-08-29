@@ -1,31 +1,49 @@
 import React from "react";
-import { Typography, Container, Grid } from "@mui/material";
-import YieldCard from "@/src/components/cards/YieldCard";
-
-const CARDS = [
-  { title: "LIDO", coin: "ETH", fixed: 4.49, variable: 4.46 },
-  { title: "ROCKET", coin: "ETH", fixed: 4.26, variable: 4.2 },
-];
+import { Typography, Container, Box } from "@mui/material";
 
 const Section5 = () => {
   return (
-    <Container maxWidth="md" sx={{ mt: 15 }}>
-      <Typography variant="h4">Chat Room</Typography>
-
+    <Container maxWidth="md" sx={{ mt: 15, mb: 10 }}>
       <Typography
-        sx={{ letterSpacing: "1.5px", maxWidth: 720 }}
-        color="text.secondary"
+        variant="h3"
+        gutterBottom
+        align="center"
+        sx={{
+          fontWeight: 'bold',
+          color: 'primary.main',
+          mb: 3,
+        }}
       >
-  Meme coin communities.
+        🌐 Global Chat Room
       </Typography>
 
-      <Grid container spacing={3} sx={{ mt: 3 }}>
-        {CARDS.map((item, i) => (
-          <Grid item xs={12} sm={6} md={4} key={i}>
-            <YieldCard {...item} />
-          </Grid>
-        ))}
-      </Grid>
+      <Typography
+        sx={{
+          letterSpacing: "3px",
+          maxWidth: 1000,
+          mb: 4,
+          fontSize: { xs: 'body1', sm: 'h6' },
+          color: 'text.secondary',
+          allign: 'center',
+          lineHeight: 2.2,
+        }}
+      >
+        🚀 Dive into the ultimate Solana chat room! Connect with fellow degens, share the latest alpha, and plan your next big move. Whether you’re ready to ape into the hottest tokens or chill with the SOL squad, our platform is where the magic happens.
+        <br />
+
+        🔗 Sync your Phantom wallet, join the conversation, and be part of a global network where every chat could lead to your next moonshot.
+        <br />
+        🌟 Your crypto adventure starts here – where on-chain innovation meets community hustle. Let’s go!
+      </Typography>
+
+      <Box sx={{ textAlign: 'center', mt: 5 }}>
+        <Typography
+          variant="body1"
+          color="text.primary"
+        >
+          💬 Ready to dive in? Connect now and explore the future of crypto with us!
+        </Typography>
+      </Box>
     </Container>
   );
 };

@@ -34,12 +34,12 @@ const Section9 = () => {
           variant="h2"
           sx={{ fontWeight: "bold", mb: 3, textAlign: "center" }}
         >
-          Free Airdrops for all!
+Free Airdrops for You!
         </Typography>
 
         <Typography
           sx={{
-            letterSpacing: "1.5px",
+            letterSpacing: "3px",
             maxWidth: 720,
             mb: 4,
             textAlign: "center",
@@ -47,6 +47,8 @@ const Section9 = () => {
           color="text.secondary"
         >
           It's all about you, it always has been.
+          <br />
+          We'll rolling out rewards because you're the real MVP
         </Typography>
 
         <MainButton sx={{ mb: 5 }}>JOIN DISCORD</MainButton>
@@ -56,7 +58,7 @@ const Section9 = () => {
           color="text.secondary"
           sx={{ pb: 2, whiteSpace: "pre-line", ml: -10 }}
         >
-          {"They don't know\nI use Cheddar to buy meme coins."}
+          {"They don't know\nI'm filling my bags with Cheddar."}
         </Typography>
       </Stack>
 
