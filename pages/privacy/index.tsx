@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
           7. Contact Us
         </Typography>
         <Typography variant="body1" paragraph>
-          If you have any questions about this Privacy Policy, please contact us at privacy@yourplatform.com.
+          If you have any questions about this Privacy Policy, please contact us at org.cheddar@gmail.com.
         </Typography>
       </Container>
       <Footer />
