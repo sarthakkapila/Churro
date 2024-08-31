@@ -12,11 +12,8 @@ const AboutUs = () => {
           About Cheddar 🧀
         </Typography>
 
-        <Typography variant="h4" gutterBottom>
-          Project Description
-        </Typography>
         <Typography variant="body1" paragraph>
-          Cheddar is our groundbreaking global chat platform that enables users to purchase meme coins using Solana actions and blinks. This document provides an overview of our project components for internal reference.
+          🚀 Dive into the ultimate Solana chat room! Connect with fellow degens, share the latest alpha, and plan your next big move. Whether you’re ready to ape into the hottest tokens or chill with the SOL squad, our platform is where the magic happens. 🔗 Sync your Phantom wallet, join the conversation, and be part of a global network where every chat could lead to your next moonshot. 🌟 Your crypto adventure starts here – where on-chain innovation meets community hustle. Let’s go!
         </Typography>
 
         <Typography variant="h4" gutterBottom>
@@ -27,9 +24,9 @@ const AboutUs = () => {
           1. Churro - Web Application (Next.js)
         </Typography>
         <Typography variant="body1" paragraph>
-          <strong>Lead Developer:</strong> [N/A]
+          <strong>Live Link:</strong> <Link href="https://cheddarchat.vercel.app/" target="_blank" rel="noopener">https://cheddarchat.vercel.app/</Link>
           <br />
-          <strong>Repository:</strong> <Link href="https://github.com/Cheddar-org/Cheddar/tree/main/churro" target="_blank" rel="noopener">GitHub Repository</Link>
+          <strong>Repository:</strong> <Link href="https://github.com/Cheddar-org/CheddarApp/tree/main/churro" target="_blank" rel="noopener">GitHub Repository</Link>
           <br />
           <strong>Key Features:</strong>
           <ul>
@@ -44,9 +41,11 @@ const AboutUs = () => {
           2. Dumpling - Mobile Application (React Native)
         </Typography>
         <Typography variant="body1" paragraph>
-          <strong>Lead Developer:</strong> Shauray Dhingra
+          <strong>Note:</strong> Dumpling is only working on iOS as of now.
           <br />
-          <strong>Repository:</strong> <Link href="https://github.com/Cheddar-org/Cheddar/tree/main/dumpling" target="_blank" rel="noopener">GitHub Repository</Link>
+          <strong>Live Link:</strong> <Link href="https://expo.dev/preview/update?message=fix&updateRuntimeVersion=1.0.0&createdAt=2024-08-31T04%3A07%3A54.668Z&slug=exp&projectId=76caef8e-27a8-46a4-a727-e8752a403b4d&group=1954efcb-452c-488b-be3a-c7951e6e40a8" target="_blank" rel="noopener">Expo Preview</Link>
+          <br />
+          <strong>Repository:</strong> <Link href="https://github.com/Cheddar-org/CheddarApp/tree/main/dumpling" target="_blank" rel="noopener">GitHub Repository</Link>
           <br />
           <strong>Key Features:</strong>
           <ul>
@@ -59,13 +58,9 @@ const AboutUs = () => {
         </Typography>
 
         <Typography variant="h5" gutterBottom>
-          3. Baklava - Chat Server
+          3. Baklava - Global Chat Server (Cloudflare Workers)
         </Typography>
         <Typography variant="body1" paragraph>
-          <strong>Lead Developer:</strong> Armaan Verma
-          <br />
-          <strong>Repository:</strong> <Link href="https://github.com/Cheddar-org/Cheddar/tree/main/baklava" target="_blank" rel="noopener">GitHub Repository</Link>
-          <br />
           <strong>Key Features:</strong>
           <ul>
             <li>Real-time messaging system backend</li>
@@ -80,10 +75,6 @@ const AboutUs = () => {
           4. Sushi - Blinks Server
         </Typography>
         <Typography variant="body1" paragraph>
-          <strong>Lead Developer:</strong> Sarthak Kapila
-          <br />
-          <strong>Repository:</strong> <Link href="https://github.com/Cheddar-org/Cheddar/tree/main/sushi" target="_blank" rel="noopener">GitHub Repository</Link>
-          <br />
           <strong>Key Features:</strong>
           <ul>
             <li>High-frequency blink processing</li>
@@ -94,34 +85,74 @@ const AboutUs = () => {
         </Typography>
 
         <Typography variant="h4" gutterBottom>
-          Development Guidelines
+          Environment Variables
         </Typography>
         <Typography variant="body1" paragraph>
-          - All code must adhere to our internal coding standards
+          To run this project, you will need to add the following environment variables to your `.env` file in the `cheddarApp/dumpling` directory:
           <br />
-          - Use linting and formatting tools
+          <code>EXPO_PUBLIC_SUPABASE_URL</code>
           <br />
-          - Commit messages should follow our standardized format
-          <br />
-          - All features must be thoroughly tested before submitting for review
+          <code>EXPO_PUBLIC_SUPABASE_ANON_KEY</code>
         </Typography>
 
         <Typography variant="h4" gutterBottom>
-          Developer Contact Information
+          Demo Video
         </Typography>
         <Typography variant="body1" paragraph>
-          - Armaan Verma: <Link href="https://github.com/Ormon-huehuehue" target="_blank" rel="noopener">GitHub</Link>, <Link href="mailto:armnvrma10@gmail.com">Email</Link>
-          <br />
-          - Shauray Dhingra: <Link href="https://github.com/Shauray018" target="_blank" rel="noopener">GitHub</Link>, <Link href="mailto:shauraydhingra03@gmail.com">Email</Link>
-          <br />
-          - Sarthak Kapila: <Link href="https://github.com/sarthakkapila" target="_blank" rel="noopener">GitHub</Link>, <Link href="mailto:sarthakkapila1@gmail.com">Email</Link>
+          <Link href="https://youtu.be/1jgTON-5uuI" target="_blank" rel="noopener">**DEMO VIDEO**</Link>
         </Typography>
 
         <Typography variant="h4" gutterBottom>
-          Confidentiality Notice
+          Installation
         </Typography>
         <Typography variant="body1" paragraph>
-          This document and all associated project materials are strictly confidential. Do not share any information outside of the organization members.
+          Install the project with npm or bun:
+        </Typography>
+        <Typography variant="body1" paragraph>
+          <code>git clone https://github.com/Cheddar-org/CheddarApp</code>
+          <br />
+          <code>cd cheddarApp</code>
+        </Typography>
+        <Typography variant="body1" paragraph>
+          Navigate to the Dumpling directory:
+        </Typography>
+        <Typography variant="body1" paragraph>
+          <code>cd Dumpling</code>
+        </Typography>
+        <Typography variant="body1" paragraph>
+          Install necessary dependencies:
+        </Typography>
+        <Typography variant="body1" paragraph>
+          <code>bun install</code>
+          <br />
+          <strong>or</strong>
+          <br />
+          <code>npm install</code>
+        </Typography>
+        <Typography variant="body1" paragraph>
+          Create a `.env` file in the root of the project and add the required environment variables.
+        </Typography>
+        <Typography variant="body1" paragraph>
+          Start the project:
+        </Typography>
+        <Typography variant="body1" paragraph>
+          <code>bun start</code>
+          <br />
+          <strong>or</strong>
+          <br />
+          <code>npm start</code>
+        </Typography>
+        <Typography variant="body1" paragraph>
+          Expo opens in development mode by default. Press 'S' in the terminal to switch to Expo Go. Install Expo Go on your device (the app only works on iOS as of now). Scan the QR code and select Expo Go in the options. Wait for it to finish building and start testing.
+        </Typography>
+
+        <Typography variant="h4" gutterBottom>
+          Contact
+        </Typography>
+        <Typography variant="body1" paragraph>
+          For any queries, reach out to:
+          <br />
+          <Link href="mailto:sarthakkapila1@gmail.com" target="_blank" rel="noopener">sarthakkapila1@gmail.com</Link>
         </Typography>
       </Container>
       <Footer />
