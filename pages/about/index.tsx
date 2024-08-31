@@ -99,7 +99,7 @@ const AboutUs = () => {
           Demo Video
         </Typography>
         <Typography variant="body1" paragraph>
-          <Link href="https://youtu.be/1jgTON-5uuI" target="_blank" rel="noopener">**DEMO VIDEO**</Link>
+          <Link href="https://www.youtube.com/watch?v=oKR2wzRZCkE" target="_blank" rel="noopener">**DEMO VIDEO**</Link>
         </Typography>
 
         <Typography variant="h4" gutterBottom>

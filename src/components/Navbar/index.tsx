@@ -110,7 +110,7 @@ const Navbar = () => {
           >
             <MainButton size="small" sx={{ height: 32 }}
             onClick={() => {
-              window.open("https://www.youtube.com/watch?v=1jgTON-5uuI", "_blank");
+              window.open("https://www.youtube.com/watch?v=oKR2wzRZCkE", "_blank");
             }}>
               Demo
             </MainButton>
