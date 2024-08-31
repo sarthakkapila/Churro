@@ -108,8 +108,11 @@ const Navbar = () => {
             spacing={3}
             flexWrap="wrap"
           >
-            <MainButton size="small" sx={{ height: 32 }}>
-              BETA
+            <MainButton size="small" sx={{ height: 32 }}
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=1jgTON-5uuI", "_blank");
+            }}>
+              Demo
             </MainButton>
           </Stack>
         )}

@@ -68,7 +68,9 @@ const Section2 = () => {
           style={{ width: "150%", height: 350, objectFit: "contain" }}
         />
 
-        <MainButton>JOIN BETA NOW</MainButton>
+        <MainButton onClick={() => {
+          window.open("https://github.com/Cheddar-org/CheddarApp", "_blank");
+        }}>JOIN BETA NOW</MainButton>
         <Typography variant="h3" sx={{ mt: -10, mb: 10, fontWeight: 'bold' }}>
         SLIDE INTO CHAT & STACK BAGS
         </Typography>
